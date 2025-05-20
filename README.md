@@ -4,20 +4,6 @@ A robust multiple linear regression model in **R** to predict aircraft prices us
 
 ---
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Usage](#usage)
-- [Methodology](#methodology)
-- [Results](#results)
-- [Repository Structure](#repository-structure)
-- [Challenges](#challenges)
-- [Contributing](#contributing)
-- [Team](#team)
-
----
-
 ## 📌 Project Overview
 
 **Goal:**  
