@@ -1,10 +1,10 @@
-# ✈️ Aircraft Price Prediction - Multiple Linear Regression Model (R)
+# Aircraft Price Prediction - Multiple Linear Regression Model 
 
 A robust multiple linear regression model in **R** to predict aircraft prices using technical specifications. 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **Goal:**  
 Predict aircraft prices using features such as engine type, engine power, speed, and wing span. Identify key pricing drivers for aviation stakeholders.
@@ -16,7 +16,7 @@ Predict aircraft prices using features such as engine type, engine power, speed,
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Kaggle Aircraft Dataset](https://www.kaggle.com/datasets/mehmet0sahinn/aircraft-price-analysis-and-prediction-dataset)  
 **Records:** 517 aircraft (after cleaning)  
@@ -31,31 +31,24 @@ Predict aircraft prices using features such as engine type, engine power, speed,
 
 ---
 
-## 🚀 Usage
+## Usage
 
-### 1. Clone the repository
+### 1. Open R or RStudio
 
-```bash
-git clone https://github.com/your-username/aircraft-price-prediction-R.git
-cd aircraft-price-prediction-R
-```
-
-### 2. Open R or RStudio
-
-### 3. Install required packages
+### 2. Install required packages
 
 ```r
 install.packages(c("tidyverse", "car", "MASS", "broom", "GGally"))
 ```
 
-### 4. Run the analysis
+### 3. Run the analysis
 
 - Oopen and execute the RMarkdown notebook:  
   `Aircraft_Price_Prediction.Rmd`
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 - **Data Cleaning:** Removed missing values, standardized units, and encoded categorical variables.
 - **EDA:** Visualized relationships, checked for outliers.
@@ -65,7 +58,7 @@ install.packages(c("tidyverse", "car", "MASS", "broom", "GGally"))
 
 ---
 
-## 📈 Results
+## Results
 
 - **Best Model:**  
   ```
@@ -86,7 +79,7 @@ install.packages(c("tidyverse", "car", "MASS", "broom", "GGally"))
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 .                  
@@ -98,7 +91,7 @@ install.packages(c("tidyverse", "car", "MASS", "broom", "GGally"))
 
 ---
 
-## ⚡ Challenges
+## Challenges
 
 - Handling missing and inconsistent data
 - Addressing multicollinearity among predictors
@@ -107,7 +100,7 @@ install.packages(c("tidyverse", "car", "MASS", "broom", "GGally"))
 ---
 
 
-## 👨‍💻 Team
+## Team
 
 - Anitha Joseph
 - Jincy Thomas
