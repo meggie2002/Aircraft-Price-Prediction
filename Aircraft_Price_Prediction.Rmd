@@ -1,5 +1,5 @@
 ---
-title: 'Aircraft Price Prediction'
+title: 'DATA603Project: Aircraft Price Prediction'
 author:
 - Anitha Joseph
 - Jincy Thomas
@@ -84,7 +84,7 @@ The explanatory variables are:
 
 ```{r read csv file}
 # Read the aircraft data from the csv file
-Aircraft = read.csv("/Users/anithajoseph/Documents/UofC/DATA603/project/aircraft_price.csv")
+Aircraft = read.csv("C:/603/aircraft_price.csv")
 print(head(Aircraft))
 ```
 
@@ -956,7 +956,7 @@ influential points and remove and check the result.
 
 ```{r Outliers removed}
 #ouliers removed
-AircraftData_NoOutliers = read.csv("/Users/anithajoseph/Documents/aircraft_price_no_outliers.csv")
+AircraftData_NoOutliers = read.csv("C:/603/aircraft_price_no_outliers.csv")
 sum(is.na(AircraftData_NoOutliers))
 Aircraft_NoOutliers = na.omit(AircraftData_NoOutliers)
 
