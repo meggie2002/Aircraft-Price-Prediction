@@ -48,11 +48,4 @@ Predict aircraft prices using features like engine specifications, speed metrics
 | **Target**    | `Price` (USD)                                                               |
 | **Predictors**| `engine_type` (Jet/Piston/Propjet), `engine_power` (hp), `cruise_speed` (knots), `wing_span` (inches), `range` (nautical miles) |
 
----
 
-## 🛠️ Installation
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/aircraft-price-prediction.git
-   cd aircraft-price-prediction
